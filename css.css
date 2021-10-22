@@ -1,0 +1,49 @@
+.background{
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    height: 100%;
+}
+.middle{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    width: 100%;
+    height: 60%;
+}
+.social_media{
+    position: relative;
+}
+.Twitter{
+    position: absolute;
+    left: 0;
+    max-width: 20%;
+}
+.text_t{
+    color: #1DA1F2;
+}
+
+.Discord{
+    position: absolute;
+    left: 10%;
+}
+.discord{
+    color: #7289da;
+}
+.btn{
+    border: none;
+    background-color: inherit;
+}
+.btn:hover {background: #eee;}
+
+.pic_t{
+    position: relative;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+}
+.text{
+    font-size: 200%;
+}
+
+
+a { text-decoration: none; }
