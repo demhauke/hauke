@@ -5,11 +5,6 @@ function timeRefresh(time) {
 }
 
 function copy_discord() {
-    var copy_text = 'dem Hauke#5791'
-    navigator.clipboard.writeText(copy_text)
-    let copied_text = true;
-}
-
-if (copied_text == true){
-    document
+    document.getElementById("button_id").innerHTML = 'kopiert!';
+    navigator.clipboard.writeText('dem Hauke#5791')
 }
