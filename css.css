@@ -33,7 +33,6 @@
     border: none;
     background-color: inherit;
 }
-.btn:hover {background: #eee;}
 
 .pic_t{
     position: relative;
@@ -42,7 +41,7 @@
     height: 100px;
 }
 .text{
-    font-size: 200%;
+    font-size: 300%;
 }
 
 
