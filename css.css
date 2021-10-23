@@ -21,10 +21,9 @@
     position: relative;
     left: calc(50% - 58px);
     max-width: 20%;
-    color: white;
 }
 .h{
-    color: purple;
+    color: white;
 }
 .social_media{
     position: relative;
