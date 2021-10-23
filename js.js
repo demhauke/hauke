@@ -1,6 +1,9 @@
+function change_discord() {
+    document.getElementById("button_id").innerHTML = 'Discord';
+}
 
 function copy_discord() {
     document.getElementById("button_id").innerHTML = 'kopiert!';
     navigator.clipboard.writeText('dem Hauke#5791');
-    setTimeout("location.reload(true);", time);
+    setTimeout(change_discord, 1200)  
 }
