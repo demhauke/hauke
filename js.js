@@ -1,3 +1,8 @@
+
+//    function timeRefresh(time) {
+//    setTimeout("location.reload(true);", time);
+//    }
+
 function change_discord() {
     document.getElementById("button_id").innerHTML = 'Discord';
 }

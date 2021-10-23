@@ -3,25 +3,56 @@
     width: 100%;
     height: 100%;
 }
+#video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 .middle{
     position: fixed;
     top: 40%;
-    left: 35%;
-    width: 100%;
-    height: 60%;
+    left: 100px;
+    width: calc(100% - 100px);
+    height: 40%;
 }
 .hauke{
     position: relative;
-    left: 11%;
+    left: calc(50% - 58px);
+    max-width: 20%;
     color: white;
+}
+.h{
+    color: purple;
 }
 .social_media{
     position: relative;
 }
 .Twitter{
     position: absolute;
-    left: 0;
+    left: calc(50% - 138px - 58px);
     max-width: 20%;
+}
+.t_pic{
+    position: fixed;
+    left: 40px;
+    top: 40%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.pic_t{
+    position: relative;
+    top: 0;
+    left: 110%;
+    width: 10px;
+    height: 10px;
+}
+.pic{
+    max-height: 100px;
+    max-width: 100px;
 }
 .t{
     color: #1DA1F2;
@@ -29,7 +60,7 @@
 
 .Discord{
     position: absolute;
-    left: 20%;
+    left: calc(50% + 116px - 58px);
 }
 .discord{
     color: #7289da;
@@ -41,15 +72,21 @@
 btn:hover{
     border: 2px groove black;
 }
-
-.pic_t{
+.rel{
     position: relative;
-    top: 40px;
-    width: 100px;
-    height: 100px;
 }
+
+
 .text{
     font-size: 300%;
+}
+
+.hide{
+    display: none;
+}
+
+.Twitter:hover + .hide {
+    display: table;
 }
 
 
