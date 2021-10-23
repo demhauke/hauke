@@ -6,9 +6,14 @@
 .middle{
     position: fixed;
     top: 40%;
-    left: 40%;
+    left: 35%;
     width: 100%;
     height: 60%;
+}
+.hauke{
+    position: relative;
+    left: 11%;
+    color: white;
 }
 .social_media{
     position: relative;
@@ -18,13 +23,13 @@
     left: 0;
     max-width: 20%;
 }
-.text_t{
+.t{
     color: #1DA1F2;
 }
 
 .Discord{
     position: absolute;
-    left: 10%;
+    left: 20%;
 }
 .discord{
     color: #7289da;
@@ -32,6 +37,9 @@
 .btn{
     border: none;
     background-color: inherit;
+}
+btn:hover{
+    border: 2px groove black;
 }
 
 .pic_t{
