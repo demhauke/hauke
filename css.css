@@ -9,17 +9,20 @@
     background-color: #181a1b;
 }
 
+.zentral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .middle{
     position: fixed;
     top: 40%;
     left: 100px;
     width: calc(100% - 200px);
-    height: 40%;
 }
 .hauke{
     position: relative;
-    left: calc(50% - 58px);
-    max-width: 20%;
     color: white;
 }
 .h{
@@ -27,7 +30,6 @@
 }
 .social_media{
     position: relative;
-    left: calc(50% - 155px);
 }
 
 .Twitter{
@@ -66,29 +68,27 @@
 .discord{
     color: #7289da;
 }
+
+.nintendo{
+    color: rgb(231, 0, 9);
+}
+
 .btn{
     border: none;
     background-color: inherit;
 }
-btn:hover{
-    border: 2px groove black;
-}
-.rel{
-    position: relative;
-}
-
 
 .text{
-    font-size: 300%;
+    font-size: 400%;
 }
 
 .hide{
     display: none;
 }
 
-.Twitter:hover + .hide {
-    display: table;
+.t_d{
+    position: relative;
+    left: 10px;
 }
-
 
 a { text-decoration: none; }
